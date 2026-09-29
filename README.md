@@ -117,7 +117,9 @@ I would also use retries with exponential backoff if the server returned rate-li
 ## Files
 
 * [`books_scraper.ipynb`](books_scraper.ipynb) — Complete scraping, cleaning, SQLite, and analysis workflow.
-* [`books.csv`](books.csv) — Final cleaned dataset.
+* [`books_scraped_cleaned.csv`](books_scraped_cleaned.csv) — Final cleaned dataset.
+* [`books_scraped.csv`](books_scraped.csv) — Scraped data before cleaning.
+* [`books.db`](books.db) — Database created while makeing queries.
 * [`queries.sql`](queries.sql) — SQL queries used for the analysis.
 
 
