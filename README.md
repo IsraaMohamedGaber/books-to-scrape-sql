@@ -108,6 +108,8 @@ The main challenge was handling the book URLs correctly because I initially did 
 
 Using `urljoin` solved the issue by converting the relative URLs into correct full URLs.
 
+Testing the out-of-stock SQL query also took some extra work because all scraped books were initially in stock, so I used temporary test records to verify the query.
+
 If the site started blocking requests after 50 requests, I would reduce the request rate by adding delays and avoiding unnecessary requests.
 
 I would also use retries with exponential backoff if the server returned rate-limit errors.
