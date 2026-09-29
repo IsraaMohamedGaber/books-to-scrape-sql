@@ -108,8 +108,6 @@ The main challenge was handling the book URLs correctly because I initially did 
 
 Using `urljoin` solved the issue by converting the relative URLs into correct full URLs.
 
-I also faced several problems when trying to load the CSV into SQL Server Management Studio, mainly related to UTF-8 encoding and incorrect column data types.
-
 If the site started blocking requests after 50 requests, I would reduce the request rate by adding delays and avoiding unnecessary requests.
 
 I would also use retries with exponential backoff if the server returned rate-limit errors.
