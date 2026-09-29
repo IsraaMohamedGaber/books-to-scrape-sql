@@ -1,4 +1,4 @@
-# books-to-scrape-sql# Books to Scrape — Web Scraping & SQL Analysis
+# Books to Scrape — Web Scraping & SQL Analysis
 
 ## Project Overview
 
